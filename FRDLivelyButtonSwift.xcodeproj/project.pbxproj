@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE7501F51F46CE1000891237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7501F41F46CE1000891237 /* AppDelegate.swift */; };
+		EE7501F71F46CE1000891237 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7501F61F46CE1000891237 /* ViewController.swift */; };
+		EE7501FA1F46CE1000891237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7501F81F46CE1000891237 /* Main.storyboard */; };
+		EE7501FC1F46CE1000891237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7501FB1F46CE1000891237 /* Assets.xcassets */; };
+		EE7501FF1F46CE1000891237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7501FD1F46CE1000891237 /* LaunchScreen.storyboard */; };
+		EE75020A1F46CE1000891237 /* FRDLivelyButtonSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7502091F46CE1000891237 /* FRDLivelyButtonSwiftTests.swift */; };
+		EE7502151F46CE3A00891237 /* FRDLivelyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7502141F46CE3A00891237 /* FRDLivelyButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE7502061F46CE1000891237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE7501E91F46CE1000891237 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE7501F01F46CE1000891237;
+			remoteInfo = FRDLivelyButtonSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE7501F11F46CE1000891237 /* FRDLivelyButtonSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRDLivelyButtonSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7501F41F46CE1000891237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE7501F61F46CE1000891237 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE7501F91F46CE1000891237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE7501FB1F46CE1000891237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE7501FE1F46CE1000891237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE7502001F46CE1000891237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7502051F46CE1000891237 /* FRDLivelyButtonSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRDLivelyButtonSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7502091F46CE1000891237 /* FRDLivelyButtonSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRDLivelyButtonSwiftTests.swift; sourceTree = "<group>"; };
+		EE75020B1F46CE1000891237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7502141F46CE3A00891237 /* FRDLivelyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRDLivelyButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE7501EE1F46CE1000891237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7502021F46CE1000891237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE7501E81F46CE1000891237 = {
+			isa = PBXGroup;
+			children = (
+				EE7501F31F46CE1000891237 /* FRDLivelyButtonSwift */,
+				EE7502081F46CE1000891237 /* FRDLivelyButtonSwiftTests */,
+				EE7501F21F46CE1000891237 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE7501F21F46CE1000891237 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE7501F11F46CE1000891237 /* FRDLivelyButtonSwift.app */,
+				EE7502051F46CE1000891237 /* FRDLivelyButtonSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE7501F31F46CE1000891237 /* FRDLivelyButtonSwift */ = {
+			isa = PBXGroup;
+			children = (
+				EE7501F41F46CE1000891237 /* AppDelegate.swift */,
+				EE7501F61F46CE1000891237 /* ViewController.swift */,
+				EE7501F81F46CE1000891237 /* Main.storyboard */,
+				EE7501FB1F46CE1000891237 /* Assets.xcassets */,
+				EE7501FD1F46CE1000891237 /* LaunchScreen.storyboard */,
+				EE7502001F46CE1000891237 /* Info.plist */,
+				EE7502141F46CE3A00891237 /* FRDLivelyButton.swift */,
+			);
+			path = FRDLivelyButtonSwift;
+			sourceTree = "<group>";
+		};
+		EE7502081F46CE1000891237 /* FRDLivelyButtonSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE7502091F46CE1000891237 /* FRDLivelyButtonSwiftTests.swift */,
+				EE75020B1F46CE1000891237 /* Info.plist */,
+			);
+			path = FRDLivelyButtonSwiftTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE7501F01F46CE1000891237 /* FRDLivelyButtonSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE75020E1F46CE1000891237 /* Build configuration list for PBXNativeTarget "FRDLivelyButtonSwift" */;
+			buildPhases = (
+				EE7501ED1F46CE1000891237 /* Sources */,
+				EE7501EE1F46CE1000891237 /* Frameworks */,
+				EE7501EF1F46CE1000891237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FRDLivelyButtonSwift;
+			productName = FRDLivelyButtonSwift;
+			productReference = EE7501F11F46CE1000891237 /* FRDLivelyButtonSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE7502041F46CE1000891237 /* FRDLivelyButtonSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7502111F46CE1000891237 /* Build configuration list for PBXNativeTarget "FRDLivelyButtonSwiftTests" */;
+			buildPhases = (
+				EE7502011F46CE1000891237 /* Sources */,
+				EE7502021F46CE1000891237 /* Frameworks */,
+				EE7502031F46CE1000891237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE7502071F46CE1000891237 /* PBXTargetDependency */,
+			);
+			name = FRDLivelyButtonSwiftTests;
+			productName = FRDLivelyButtonSwiftTests;
+			productReference = EE7502051F46CE1000891237 /* FRDLivelyButtonSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE7501E91F46CE1000891237 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Calios;
+				TargetAttributes = {
+					EE7501F01F46CE1000891237 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = N9K6HVRBSX;
+						ProvisioningStyle = Automatic;
+					};
+					EE7502041F46CE1000891237 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = N9K6HVRBSX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE7501F01F46CE1000891237;
+					};
+				};
+			};
+			buildConfigurationList = EE7501EC1F46CE1000891237 /* Build configuration list for PBXProject "FRDLivelyButtonSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE7501E81F46CE1000891237;
+			productRefGroup = EE7501F21F46CE1000891237 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE7501F01F46CE1000891237 /* FRDLivelyButtonSwift */,
+				EE7502041F46CE1000891237 /* FRDLivelyButtonSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE7501EF1F46CE1000891237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7501FF1F46CE1000891237 /* LaunchScreen.storyboard in Resources */,
+				EE7501FC1F46CE1000891237 /* Assets.xcassets in Resources */,
+				EE7501FA1F46CE1000891237 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7502031F46CE1000891237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE7501ED1F46CE1000891237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7501F71F46CE1000891237 /* ViewController.swift in Sources */,
+				EE7501F51F46CE1000891237 /* AppDelegate.swift in Sources */,
+				EE7502151F46CE3A00891237 /* FRDLivelyButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7502011F46CE1000891237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE75020A1F46CE1000891237 /* FRDLivelyButtonSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE7502071F46CE1000891237 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE7501F01F46CE1000891237 /* FRDLivelyButtonSwift */;
+			targetProxy = EE7502061F46CE1000891237 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE7501F81F46CE1000891237 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7501F91F46CE1000891237 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE7501FD1F46CE1000891237 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7501FE1F46CE1000891237 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE75020C1F46CE1000891237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE75020D1F46CE1000891237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE75020F1F46CE1000891237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N9K6HVRBSX;
+				INFOPLIST_FILE = FRDLivelyButtonSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Calios.FRDLivelyButtonSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE7502101F46CE1000891237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N9K6HVRBSX;
+				INFOPLIST_FILE = FRDLivelyButtonSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Calios.FRDLivelyButtonSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE7502121F46CE1000891237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N9K6HVRBSX;
+				INFOPLIST_FILE = FRDLivelyButtonSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Calios.FRDLivelyButtonSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FRDLivelyButtonSwift.app/FRDLivelyButtonSwift";
+			};
+			name = Debug;
+		};
+		EE7502131F46CE1000891237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N9K6HVRBSX;
+				INFOPLIST_FILE = FRDLivelyButtonSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Calios.FRDLivelyButtonSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FRDLivelyButtonSwift.app/FRDLivelyButtonSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE7501EC1F46CE1000891237 /* Build configuration list for PBXProject "FRDLivelyButtonSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE75020C1F46CE1000891237 /* Debug */,
+				EE75020D1F46CE1000891237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE75020E1F46CE1000891237 /* Build configuration list for PBXNativeTarget "FRDLivelyButtonSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE75020F1F46CE1000891237 /* Debug */,
+				EE7502101F46CE1000891237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE7502111F46CE1000891237 /* Build configuration list for PBXNativeTarget "FRDLivelyButtonSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7502121F46CE1000891237 /* Debug */,
+				EE7502131F46CE1000891237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE7501E91F46CE1000891237 /* Project object */;
+}
